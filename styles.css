@@ -8,6 +8,9 @@
   --azure-br: #5a4ef0;
   --cyan: #06b6d4;
   --cyan-dim: rgba(6, 182, 212, 0.08);
+  --title-gradient-start: #2c358e;
+  --title-gradient-mid: #0186bf;
+  --title-gradient-end: #cfeaf9;
   --snow: #161343;
   --snow-60: #4c4a75;
   --snow-20: rgba(22, 19, 67, 0.12);
@@ -191,7 +194,7 @@ h2.stitle {
 
 h2.stitle em {
   font-style: normal;
-  background: linear-gradient(135deg, var(--azure-br), var(--cyan));
+  background: linear-gradient(135deg, var(--title-gradient-start), var(--title-gradient-mid), var(--title-gradient-end));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -297,14 +300,14 @@ h1.htitle {
   font-size: clamp(2.4rem, 4.5vw, 4.5rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
+  background: linear-gradient(135deg, var(--title-gradient-start), var(--title-gradient-mid), var(--title-gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 h1.htitle em {
   font-style: normal;
-  background: linear-gradient(135deg, var(--azure-br), var(--cyan));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 
 .hero-desc {
@@ -411,8 +414,24 @@ h1.htitle em {
 .hero-visual-container {
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.hero-image-block {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 90px rgba(22, 19, 67, 0.14);
+}
+
+.hero-image-block img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .window-mockup {
