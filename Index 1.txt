@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automatización de Procesos | DCARO PROGRESS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- 🔵 NAV / CTA STICKY -->
+<header class="navbar">
+  <div class="container nav-flex">
+    <div class="logo">DCARO PROGRESS</div>
+    <a href="#cta" class="btn-primary">Agendar diagnóstico</a>
+  </div>
+</header>
+
+<!-- 🟣 HERO -->
+<section class="hero">
+  <div class="container">
+    <h1>Deja de perseguir procesos. Haz que tu operación funcione sola.</h1>
+    <p class="subtitle">
+      Elimina seguimientos, correos y tareas manuales.
+      Recupera el control sin agregar más complejidad.
+    </p>
+    <a href="#cta" class="btn-primary">Agendar diagnóstico ejecutivo</a>
+    <p class="micro">30 min · Sin costo · 100% práctico</p>
+  </div>
+</section>
+
+<!-- 🔴 PROBLEMA -->
+<section class="section">
+  <div class="container">
+    <h2>¿Te suena familiar?</h2>
+    <p>Hoy en muchas empresas, los procesos funcionan más por seguimiento que por estructura.</p>
+
+    <ul class="list">
+      <li>Correos que no terminan</li>
+      <li>Solicitudes que se pierden</li>
+      <li>Nadie sabe en qué estado está cada tarea</li>
+      <li>Dependencia de WhatsApp o llamadas</li>
+      <li>Retrasos en aprobaciones críticas</li>
+    </ul>
+
+    <p class="highlight">El problema no es la herramienta. Es cómo está funcionando la operación.</p>
+  </div>
+</section>
+
+<!-- 🟢 SOLUCIÓN -->
+<section class="section alt">
+  <div class="container">
+    <h2>Menos seguimiento. Más control.</h2>
+    <p>
+      En DCARO PROGRESS estructuramos y automatizamos procesos usando lo que ya tienes en Microsoft 365.
+    </p>
+
+    <ul class="list">
+      <li>Procesos claros y estructurados</li>
+      <li>Automatización de tareas repetitivas</li>
+      <li>Eliminación de seguimiento manual</li>
+      <li>Visibilidad en tiempo real</li>
+      <li>Reducción de errores y dependencia</li>
+    </ul>
+
+    <p class="quote">Los procesos no deberían perseguirse… deberían avanzar solos.</p>
+  </div>
+</section>
+
+<!-- ⭐ PRUEBA SOCIAL -->
+<section class="section">
+  <div class="container">
+    <h2>Empresas que ya dejaron de perseguir procesos</h2>
+
+    <blockquote>
+      “En menos de 30 días pasamos de correos a un flujo automatizado.
+      Hoy sabemos exactamente en qué está cada solicitud.”
+    </blockquote>
+
+    <p class="author">— Director de Operaciones</p>
+  </div>
+</section>
+
+<!-- 🟡 CASOS -->
+<section class="section alt">
+  <div class="container">
+    <h2>Procesos que transformamos todos los días</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Aprobaciones</h3>
+        <p>Elimina correos y retrasos con flujos automáticos claros.</p>
+      </div>
+
+      <div class="card">
+        <h3>Solicitudes internas</h3>
+        <p>Centraliza TI, compras o RRHH en un solo flujo visible.</p>
+      </div>
+
+      <div class="card">
+        <h3>PQR</h3>
+        <p>Control total de solicitudes de clientes con trazabilidad completa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 🟠 BENEFICIOS -->
+<section class="section">
+  <div class="container">
+    <h2>Impacto directo en tu operación</h2>
+
+    <ul class="list">
+      <li>Menos tiempo en seguimiento</li>
+      <li>Procesos más rápidos</li>
+      <li>Información en tiempo real</li>
+      <li>Mayor control operativo</li>
+    </ul>
+
+    <p class="highlight">
+      Si no corriges un proceso manual… no se mantiene igual.
+      Se vuelve más complejo.
+    </p>
+  </div>
+</section>
+
+<!-- 🔵 DIFERENCIADOR -->
+<section class="section alt">
+  <div class="container">
+    <h2>No automatizamos caos</h2>
+
+    <ol class="steps">
+      <li>Diagnóstico de procesos</li>
+      <li>Identificación de puntos críticos</li>
+      <li>Diseño estructurado</li>
+      <li>Automatización</li>
+      <li>Acompañamiento continuo</li>
+    </ol>
+  </div>
+</section>
+
+<!-- 🟣 CTA FINAL -->
+<section class="cta" id="cta">
+  <div class="container">
+    <h2>Tu operación no necesita más herramientas… necesita funcionar mejor.</h2>
+    <a href="#" class="btn-primary">Agendar diagnóstico ejecutivo</a>
+    <p class="micro">Sesión práctica · Sin compromiso · Enfocada en resultados</p>
+  </div>
+</section>
+
+</body>
+</html>
