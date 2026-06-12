@@ -56,74 +56,194 @@
     <div class="orb orb-b" style="bottom:12%; left:8%;"></div>
 
     <div class="container hero-wrap">
-      <div>
-        <div class="hero-sup">DCARO PROGRESS · Eficiencia Operativa</div>
+      <div class="hero-left-content">
+        <div class="hero-sup">EFICIENCIA OPERATIVA · DCARO PROGRESS</div>
         <h1 class="htitle">
-          Deja de perseguir procesos.<br>Haz que tu operación<br><em>funcione sola.</em>
+          Deja de perseguir procesos.<br>Empieza a controlarlos.
         </h1>
         <p class="hero-desc">
-          Elimina seguimientos manuales, correos infinitos y solicitudes perdidas.
-          Recupera el control total estructurando y automatizando procesos con las herramientas de Microsoft 365 que ya
-          tienes contratadas.
+          Estructuramos y automatizamos tu operación para eliminar seguimiento manual y devolverte visibilidad real del
+          negocio.
         </p>
+        <div class="hero-insight-box">
+          <p>Si necesitas correos o seguimiento para que algo avance… hay una oportunidad de mejora clara.</p>
+        </div>
         <div class="hero-btns">
-          <a href="#cta" class="btn-p">Agendar diagnóstico gratis</a>
-          <a href="#solucion" class="btn-g">Ver simulador interactivo</a>
+          <a href="#cta" class="btn-p">Agendar diagnóstico con especialista</a>
+          <a href="#solucion" class="btn-g">Ver cómo funciona</a>
         </div>
       </div>
 
-      <div class="hero-stats-container">
-        <!-- Card 1 -->
-        <div class="hero-stat-card">
-          <div class="stat-icon-wrapper purple-bg">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <polyline points="12 6 12 12 16 14"></polyline>
-              <line x1="12" y1="2" x2="12" y2="4"></line>
-            </svg>
+      <div class="hero-visual-container">
+        <!-- Dashboard Window Mockup -->
+        <div class="window-mockup">
+          <div class="window-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
           </div>
-          <div class="stat-info">
-            <div class="stat-number">
-              <span class="counter" data-val="30" data-pre="&lt; " data-suf=" días">0</span>
+          <div class="window-body">
+            <!-- Row 1: Solicitud -> En aprobación -> Aprobado -->
+            <div class="flow-row">
+              <!-- Card 1: Solicitud -->
+              <div class="flow-card card-solicitud">
+                <div class="card-header-line">Solicitud</div>
+                <div class="card-body-content">
+                  <div class="avatar-circle user-pink"></div>
+                  <div class="sim-lines">
+                    <span class="sim-line-bar width-medium"></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Connection Arrow -->
+              <div class="flow-arrow-right">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+
+              <!-- Card 2: En aprobación -->
+              <div class="flow-card card-en-aprobacion">
+                <div class="card-header-line">En aprobación</div>
+                <div class="card-body-content">
+                  <div class="avatar-circle user-orange"></div>
+                  <div class="sim-lines">
+                    <span class="sim-line-label">Asignados</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Connection Arrow -->
+              <div class="flow-arrow-right">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </div>
+
+              <!-- Card 3: Aprobado -->
+              <div class="flow-card card-aprobado-top">
+                <div class="card-header-line font-green">Aprobado <span class="badge-success-check">✓</span></div>
+                <div class="card-body-content">
+                  <div class="progress-bar-container">
+                    <div class="progress-bar-inner"></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="stat-label">Para tener flujos funcionando</p>
+
+            <!-- Connection Arrow Down (from Card 2 "En aprobación") -->
+            <div class="flow-arrow-down">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="5 12 12 19 19 12"></polyline>
+              </svg>
+            </div>
+
+            <!-- Row 2: Aprobación -->
+            <div class="flow-row center-flow-row">
+              <div class="flow-card card-aprobacion-mid">
+                <div class="card-header-line font-yellow">Aprobación <span class="badge-warning-check">✓</span></div>
+                <div class="card-body-content">
+                  <div class="avatar-circle user-blue"></div>
+                  <div class="sim-lines">
+                    <span class="sim-line-label">Asignados</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Connection Arrow Down -->
+            <div class="flow-arrow-down">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="5 12 12 19 19 12"></polyline>
+              </svg>
+            </div>
+
+            <!-- Row 3: Aprobado Final -->
+            <div class="flow-row center-flow-row">
+              <div class="flow-card card-aprobado-bottom">
+                <div class="card-header-line font-green">Aprobado <span class="badge-success-check">✓</span></div>
+                <div class="card-body-content">
+                  <div class="avatar-circle user-purple"></div>
+                  <div class="sim-lines">
+                    <span class="sim-line-label">Avsin Pamer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Connection Arrow Down -->
+            <div class="flow-arrow-down">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2">
+                <line x1="12" y1="5" x2="12" y2="19"></line>
+                <polyline points="5 12 12 19 19 12"></polyline>
+              </svg>
+            </div>
+
+            <!-- Final Flow Node -->
+            <div class="flow-final-circle">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
           </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="hero-stat-card">
-          <div class="stat-icon-wrapper yellow-bg">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-              <circle cx="9" cy="7" r="4"></circle>
-              <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-            </svg>
-          </div>
-          <div class="stat-info">
-            <div class="stat-number">
-              <span class="counter" data-val="150" data-pre="+">0</span>
-            </div>
-            <p class="stat-label">Empresas acompañadas en la región</p>
-          </div>
+        <!-- Floating Badges with Icons around the window -->
+        <div class="float-item float-check-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
         </div>
 
-        <!-- Card 3 -->
-        <div class="hero-stat-card">
-          <div class="stat-icon-wrapper orange-bg">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ea580c" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
-            </svg>
-          </div>
-          <div class="stat-info">
-            <div class="stat-number">
-              <span class="counter" data-val="1000" data-pre="+" data-suf=" hrs" data-format="true">0</span>
-            </div>
-            <p class="stat-label">Ahorradas en tareas repetitivas</p>
-          </div>
+        <div class="float-item float-clock-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#eab308" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+
+        <div class="float-item float-link-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+          </svg>
+        </div>
+
+        <div class="float-item float-schedule-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4b5563" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          <span class="sim-line-bar width-small"></span>
+        </div>
+
+        <div class="float-item float-history-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <polyline points="3 3 3 8 8 8"></polyline>
+            <line x1="12" y1="7" x2="12" y2="12"></line>
+            <line x1="12" y1="12" x2="16" y2="12"></line>
+          </svg>
+        </div>
+
+        <div class="float-item float-route-badge">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4b5563" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 3 21 8 16 13"></polyline>
+            <line x1="21" y1="8" x2="9" y2="8"></line>
+            <path d="M9 8a5 5 0 0 0-5 5v3"></path>
+          </svg>
         </div>
       </div>
     </div>
