@@ -749,6 +749,69 @@ h1.htitle em {
   color: var(--azure);
 }
 
+/* ── BLOQUE DE COSTO IMPACTANTE ── */
+.cost-impact-section {
+  margin-top: 50px;
+  padding: 36px 30px;
+  background: var(--ink-mid);
+  border: 1px solid var(--gborder);
+  border-radius: 24px;
+  box-shadow: var(--shadow-premium);
+}
+
+.cost-impact-section .cost-title {
+  font-family: 'Sora', sans-serif;
+  font-weight: 800;
+  font-size: clamp(1.5rem, 2vw, 1.8rem);
+  color: var(--snow);
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.cost-impact-section .dolor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.cost-impact-section .dolor-card {
+  padding: 26px 24px;
+}
+
+.cost-impact-section .dolor-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  background: rgba(6, 182, 212, 0.12);
+  color: #0ea5e9;
+  font-size: 1.2rem;
+}
+
+.cost-impact-section .dolor-body h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.cost-impact-section .dolor-body p {
+  font-size: 0.92rem;
+  color: var(--snow-60);
+}
+
+.cost-impact-section .highlight-box {
+  margin-top: 0;
+}
+
+.highlight-subtext {
+  margin: 0;
+  color: var(--snow-60);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 /* ── SECCIÓN SOLUCIÓN ── */
 #solucion {
   background: var(--ink);
